@@ -12,14 +12,12 @@ namespace Advertisement.Infrastructure.Data
     public class AdRepository : IAdRepository
     {
         private readonly ApplicationContext _applicationContext;
-        private readonly IConfiguration _configuration;
         private readonly string _connectString;
 
         public AdRepository(ApplicationContext applicationContext, IConfiguration configuration)
         {
             _applicationContext = applicationContext;
-            _configuration = configuration;
-            _connectString = _configuration.GetConnectionString("DefaultConnection");
+            _connectString = configuration.GetConnectionString("DefaultConnection");
         }
 
         public async Task CreateAsync(Ad ad)

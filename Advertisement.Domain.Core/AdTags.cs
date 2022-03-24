@@ -2,7 +2,7 @@
 {
     public class AdTags
     {
-        public int Id { get; set; }
+        public int Id { get;}
         public int IdsId { get; set; }
         public int TagsId { get; set; }
     }

@@ -2,7 +2,7 @@
 {
     public class Ad
     {
-        public int Id { get; set; }
+        public int Id { get; }
         public string Text { get; set; }
     }
 }

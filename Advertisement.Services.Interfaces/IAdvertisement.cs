@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Advertisement.Domain.Interfaces
+namespace Advertisement.Services.Interfaces
 {
     public interface IAdvertisement
     {

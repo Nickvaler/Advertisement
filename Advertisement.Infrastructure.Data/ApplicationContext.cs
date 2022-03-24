@@ -7,7 +7,7 @@ namespace Advertisement.Infrastructure.Data
 {
     public class ApplicationContext : DbContext
     {
-        public IConfiguration Configuration { get; }
+        private IConfiguration Configuration { get; }
 
         public DbSet<Ad> Ads { get; set; }
         public DbSet<Tag> Tags { get; set; }
@@ -31,19 +31,19 @@ namespace Advertisement.Infrastructure.Data
             optionsBuilder.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
         }
 
-        public void AdConfigure(EntityTypeBuilder<Ad> builder)
+        private void AdConfigure(EntityTypeBuilder<Ad> builder)
         {
             builder.ToTable("Ads").HasKey(x => x.Id);
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Text);
         }
 
-        public void AdTagsConfigure(EntityTypeBuilder<AdTags> builder)
+        private void AdTagsConfigure(EntityTypeBuilder<AdTags> builder)
         {
             builder.ToTable("AdTags").HasKey(x => x.Id);
         }
 
-        public void TagConfigure(EntityTypeBuilder<Tag> builder)
+        private void TagConfigure(EntityTypeBuilder<Tag> builder)
         {
             builder.ToTable("Tags").HasKey(x => x.Id);
             builder.HasKey(x => x.Id);

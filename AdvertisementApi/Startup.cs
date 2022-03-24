@@ -1,6 +1,7 @@
 ﻿using Advertisement.Domain.Interfaces;
 using Advertisement.Infrastructure.Business;
 using Advertisement.Infrastructure.Data;
+using Advertisement.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -12,8 +13,8 @@ namespace AdvertisementApi
 {
     public class Startup
     {
-        public IConfiguration Configuration { get; }
-
+        private IConfiguration Configuration { get; }
+        private const string DefaultConnection = "DefaultConnection";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -21,7 +22,7 @@ namespace AdvertisementApi
 
         public void ConfigureServices(IServiceCollection services)
         {
-            string connection = Configuration.GetConnectionString("DefaultConnection");
+            var connection = Configuration.GetConnectionString(DefaultConnection);
             services.AddScoped<IAdRepository, AdRepository>();
             services.AddScoped<ITagsRepository, TagsRepository>();
             services.AddScoped<IAdTagsRepository, AdTagsRepository>();
