@@ -33,9 +33,10 @@
     ".NETCoreApp,Version=v5.0": {
       "AdvertisementApi/1.0.0": {
         "dependencies": {
-          "Advertisement.Models": "1.0.0",
-          "Dapper": "2.0.123",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
+          "Advertisement.Domain.Core": "1.0.0",
+          "Advertisement.Infrastructure.Business": "1.0.0",
+          "Advertisement.Infrastructure.Data": "1.0.0",
+          "Advertisement.Services.Interfaces": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -1298,12 +1299,60 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Advertisement.Models/1.0.0": {
+      "Advertisement.Domain.Core/1.0.0": {
         "runtime": {
-          "Advertisement.Models.dll": {}
+          "Advertisement.Domain.Core.dll": {}
         },
         "compile": {
-          "Advertisement.Models.dll": {}
+          "Advertisement.Domain.Core.dll": {}
+        }
+      },
+      "Advertisement.Domain.Interfaces/1.0.0": {
+        "dependencies": {
+          "Advertisement.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Advertisement.Domain.Interfaces.dll": {}
+        },
+        "compile": {
+          "Advertisement.Domain.Interfaces.dll": {}
+        }
+      },
+      "Advertisement.Infrastructure.Business/1.0.0": {
+        "dependencies": {
+          "Advertisement.Infrastructure.Data": "1.0.0",
+          "Advertisement.Services.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Advertisement.Infrastructure.Business.dll": {}
+        },
+        "compile": {
+          "Advertisement.Infrastructure.Business.dll": {}
+        }
+      },
+      "Advertisement.Infrastructure.Data/1.0.0": {
+        "dependencies": {
+          "Advertisement.Domain.Core": "1.0.0",
+          "Advertisement.Domain.Interfaces": "1.0.0",
+          "Dapper": "2.0.123",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15"
+        },
+        "runtime": {
+          "Advertisement.Infrastructure.Data.dll": {}
+        },
+        "compile": {
+          "Advertisement.Infrastructure.Data.dll": {}
+        }
+      },
+      "Advertisement.Services.Interfaces/1.0.0": {
+        "dependencies": {
+          "Advertisement.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Advertisement.Services.Interfaces.dll": {}
+        },
+        "compile": {
+          "Advertisement.Services.Interfaces.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3665,7 +3714,27 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Advertisement.Models/1.0.0": {
+    "Advertisement.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Advertisement.Domain.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Advertisement.Infrastructure.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Advertisement.Infrastructure.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Advertisement.Services.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

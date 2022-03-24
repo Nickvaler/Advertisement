@@ -1,12 +1,12 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Advertisement.Domain.Interfaces;
+using Advertisement.Infrastructure.Business;
+using Advertisement.Infrastructure.Data;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore;
-using AdvertisementApi.Context;
-using AdvertisementApi.Services;
-using AdvertisementApi.Services.Implementation;
 
 namespace AdvertisementApi
 {
@@ -22,7 +22,10 @@ namespace AdvertisementApi
         public void ConfigureServices(IServiceCollection services)
         {
             string connection = Configuration.GetConnectionString("DefaultConnection");
-            services.AddScoped<IAdvertisementService, AdvertisementService>();
+            services.AddScoped<IAdRepository, AdRepository>();
+            services.AddScoped<ITagsRepository, TagsRepository>();
+            services.AddScoped<IAdTagsRepository, AdTagsRepository>();
+            services.AddScoped<IAdvertisement, AdvertisementService>();
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
             services.AddControllers();
         }

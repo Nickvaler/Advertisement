@@ -1,9 +1,8 @@
-﻿using AdvertisementApi.Services;
+﻿using Advertisement.Domain.Core;
+using Advertisement.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Advertisement.Models;
-using Advertisement.Models.DbModels;
 
 namespace AdvertisementApi.Controllers
 {
@@ -11,10 +10,10 @@ namespace AdvertisementApi.Controllers
     [ApiController]
     public class AdController : ControllerBase
     {
-        private readonly IAdvertisementService _advertisementService;
-        public AdController(IAdvertisementService advertisementService)
+        private readonly IAdvertisement _advertisement;
+        public AdController(IAdvertisement advertisement)
         {
-            _advertisementService = advertisementService;
+            _advertisement = advertisement;
         }
 
         [HttpPost]
@@ -24,14 +23,14 @@ namespace AdvertisementApi.Controllers
             {
                 return BadRequest();
             }
-            await _advertisementService.CreateAdAsync(advertisement);
+            await _advertisement.CreateAdAsync(advertisement);
             return Ok("Объявление добавлено");
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Ad>>> Get(List<string> tags)
         {
-            var result = await _advertisementService.GetAdsByTagsAsync(tags);
+            var result = await _advertisement.GetAdsByTagsAsync(tags);
             if (result.Count == 0)
             {
                 return Ok("Не найдено объявлений по заданным тэгам");

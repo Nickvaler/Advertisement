@@ -1,9 +1,9 @@
-﻿using Advertisement.Models.DbModels;
+﻿using Advertisement.Domain.Core;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.Extensions.Configuration;
 
-namespace AdvertisementApi.Context
+namespace Advertisement.Infrastructure.Data
 {
     public class ApplicationContext : DbContext
     {

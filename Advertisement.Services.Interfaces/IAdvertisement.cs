@@ -1,11 +1,10 @@
-﻿using Advertisement.Models;
-using Advertisement.Models.DbModels;
+﻿using Advertisement.Domain.Core;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace AdvertisementApi.Services
+namespace Advertisement.Domain.Interfaces
 {
-    public interface IAdvertisementService
+    public interface IAdvertisement
     {
         Task CreateAdAsync(Advertising ad);
         Task<List<Ad>> GetAdsByTagsAsync(List<string> tags);
