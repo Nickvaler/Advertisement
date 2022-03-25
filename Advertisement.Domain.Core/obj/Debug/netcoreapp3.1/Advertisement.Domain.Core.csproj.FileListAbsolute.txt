@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Core\bin\Debug\netcoreapp3.1\Advertisement.Domain.Core.deps.json
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Core\bin\Debug\netcoreapp3.1\Advertisement.Domain.Core.dll
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Core\bin\Debug\netcoreapp3.1\Advertisement.Domain.Core.pdb
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Core\obj\Debug\netcoreapp3.1\Advertisement.Domain.Core.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Core\obj\Debug\netcoreapp3.1\Advertisement.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Core\obj\Debug\netcoreapp3.1\Advertisement.Domain.Core.AssemblyInfo.cs
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Core\obj\Debug\netcoreapp3.1\Advertisement.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Core\obj\Debug\netcoreapp3.1\Advertisement.Domain.Core.dll
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Core\obj\Debug\netcoreapp3.1\Advertisement.Domain.Core.pdb

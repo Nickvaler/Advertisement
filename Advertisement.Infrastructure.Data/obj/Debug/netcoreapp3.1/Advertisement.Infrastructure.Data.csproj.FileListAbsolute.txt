@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\bin\Debug\netcoreapp3.1\Advertisement.Domain.Core.dll
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\obj\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\obj\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\obj\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.AssemblyInfo.cs
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\bin\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.deps.json
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\bin\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.dll
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\bin\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.pdb
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\bin\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.dll
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\bin\Debug\netcoreapp3.1\Advertisement.Domain.Core.pdb
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\bin\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.pdb
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\obj\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\obj\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.csproj.CopyComplete
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\obj\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.dll
+C:\Users\User\source\repos\Advertisement\Advertisement.Infrastructure.Data\obj\Debug\netcoreapp3.1\Advertisement.Infrastructure.Data.pdb

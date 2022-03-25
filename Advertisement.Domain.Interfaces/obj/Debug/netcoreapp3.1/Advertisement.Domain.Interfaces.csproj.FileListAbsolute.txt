@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\bin\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.deps.json
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\bin\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.dll
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\bin\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.pdb
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\bin\Debug\netcoreapp3.1\Advertisement.Domain.Core.dll
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\bin\Debug\netcoreapp3.1\Advertisement.Domain.Core.pdb
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\obj\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\obj\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\obj\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.AssemblyInfo.cs
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\obj\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\obj\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.csproj.CopyComplete
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\obj\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.dll
+C:\Users\User\source\repos\Advertisement\Advertisement.Domain.Interfaces\obj\Debug\netcoreapp3.1\Advertisement.Domain.Interfaces.pdb
